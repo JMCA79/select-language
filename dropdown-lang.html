@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('FuturaStd-Book.eot');
+    src: url('FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaStd-Book.woff2') format('woff2'),
+        url('FuturaStd-Book.woff') format('woff'),
+        url('FuturaStd-Book.ttf') format('truetype'),
+        url('FuturaStd-Book.svg#FuturaStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dropbtn {
+  font-family: 'Futura Std'; font-weight: normal; font-style: normal;
+  background-color: #D7E585;
+  color: #000;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font-family: 'Futura Std'; font-weight: normal; font-style: normal;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #AFCB37}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #AFCB37;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="dropbtn">Choose your language</button>
+  <div class="dropdown-content">
+  <a href="#">Deustch</a>
+  <a href="#">English</a>
+  <a href="#">English - US</a>
+  <a href="#">Español</a>
+  </div>
+</div>
+
+</body>
+</html>
